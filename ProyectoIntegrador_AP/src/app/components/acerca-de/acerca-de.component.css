@@ -3,24 +3,29 @@
 }
 
 div {
-    background-color: cadetblue;
+    background-color:  #010d1d;
     text-align: center;
+    color: #FFFFFf;
+    font-family: 'Yantramanav',sans-serif;
 }
+
 /*etiqueta nombre*/
 #nombre {
     font-weight: bold;
     margin-top: 5%;
-    left:10px
+    left:30px;
+    margin-left: 30%;
+    background-color: 121228;
 }
 /*estilo de la foto de perfil*/
 @media (min-width:576px){
     #fotodeperfil{
         position: absolute;
-        width: 15%;
+        width: 20%;
         border-radius: 100%;
         box-shadow: 3px 3px 3px grey;
         left: 3%;
-        top: 550px;
+        top: 580px;
     }
 }
 @media (max-width:575px){
@@ -32,4 +37,8 @@ div {
         left: 20%;
         top: 690px;
     }
+}
+#acercaDe{
+    background-color: #121228;
+    border-radius: 20px;
 }

@@ -1,9 +1,11 @@
 .row{
     padding: 20px;
-    background-color: cadetblue;
+    background-color:  #010d1d;
+    color:#FFFFFf;
 }
 .contenedor{
     width: auto;
+    margin: 0px;
 }
 .parte1, .parte2{
     display: inline-block;
@@ -12,5 +14,16 @@
 
 .img-proyecto{
     width: 1000px;
-    box-shadow: 15px 15px 30px black;
+    box-shadow: 0 0.1rem 0.4rem black;
+    cursor: pointer;
+    transition: box-shadow 0.3s ease;
+}
+#proyectos{
+    margin: 10px 12px 30px;
+}
+#bbdd{
+    background: linear-gradient(90deg, #0A89FF, #FF3BF6);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    border-radius: 20px;
 }
