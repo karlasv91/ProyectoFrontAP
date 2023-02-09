@@ -1,0 +1,23 @@
+.row {
+    padding: 20px;
+}
+div {
+    background-color: #010d1d;
+    color:#FFFFFf;
+}
+h2,h3{
+    display: inline;
+}
+#educacion{
+    margin: 0px 12px 30px;
+}
+#tecno{
+    background-color: #121228;
+    border-radius: 20px;
+}
+#uc{
+    background: linear-gradient(90deg, #0A89FF, #FF3BF6);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    border-radius: 20px;
+}
